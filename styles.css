@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+}
+
+span {
+	font-weight: bold;
+}
+
+.toTheRight {
+	text-align: right;
+}
+
+header {
+}
+
+main {
+	display:flex;
+	justify-content:space-between;
+	align-content: space-between;
+	}
+
+img {
+	width: auto;
+	height: 120px;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: space-between;
+
+}
+
+.bubble {
+	margin: 23px auto;
+}
+
+.line {
+	height: 1px;
+	width:100%;
+	background: #999999;
+}
+
+footer {
+	text-align: center;
+	font-size: 10px;
+	margin: 20px 0;
+}
+
+.holdbuttons a {
+	margin: 0 6px 0 6px;
+}
+
+.everything {
+	margin: 40px auto 12px auto;
+	width: 65%;
+	min-width: 700px;
+}
